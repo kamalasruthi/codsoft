@@ -3,61 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Portfolio</title>
+    <link rel="icon" href="girl.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <h1 class="heading">Home</h1>
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Courses</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="home">
-        <div class="content">
-            <center>
-            <h1>Eduhub</h1>
-            <p> The ultimate learning spot.
-                <br>
-                Enroll now to hone your coding skills!!
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
 
-            </p>
-            <a href="#"><button class="btn">Enroll now</button></a>
-            </center>
-        </div>
-        </section>
-    <div class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>Why choose us?</h3>
-                <p>Join us for HTML, CSS, & JavaScript tutorials! Expert-led, interactive sessions to master web development. Start coding confidently today!</p>
-            </div>
-            <div class="box">
-                <h3>Quick links</h3>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Courses</a>
-                <a href="#">Contact</a>
-            </div>
-            <div class="box">
-                <h3>newsletter</h3>
-                 <form action="">
-                    <input type="email" placeholder="your email">
-                    <input type="submit" class="btn" value="subscribe">
+            </ul>
+            <a href="#" class="btn">Subscribe</a>
+        </nav>
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Sru<span>thi</span></h1>
+            <h3>I'm a Web Developer.</h3>
+            <div class="newslatter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter your Email">
+                    <input type="submit" name="submit" value="Let's start">
                 </form>
             </div>
         </div>
     </div>
+    <section class="about"> 
+        <div class="main">
+            <img src="se.png">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer</h5>
+                 <p> "I'm a passionate web developer with a flair for creativity 
+                    and a knack for problem-solving. Specializing in front-end 
+                    development, I bring designs to life with clean, efficient code.
+                     With a keen eye for detail and a commitment to excellence, 
+                     I strive to craft engaging and user-friendly digital experiences."</p>
+                     <button type="button">Let's Talk</button>
+
+            </div>
+        </div>
+
+    </section>
+    <div class="skill">
+        <h1>My Skills</h1>
+        <li><h3>HTML</h3>
+            <span class="bar"><span class="html"></span></span>
+        </li>
+        <li><h3>CSS</h3>
+            <span class="bar"><span class="css"></span></span>
+        </li>
+        <li><h3>JavaScript</h3>
+            <span class="bar"><span class="JavaScript"></span></span>
+        </li>
         
-        
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="hello.js"></script>
+
+
+    </div>
+    <div class="service">
+        <div class="title">
+            <h2>Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Web Design</h5>
+                <div class="pra">
+                    <p>Creating visually appealing layouts, choose color schemes, and design user-friendly interfaces.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>E-commerce Solutions</h5>
+                <div class="pra">
+                    <p>Building e-commerce platforms, integrating features like product catalogs, shopping carts, secure payment gateways, and order processing.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Database Management</h5>
+                <div class="pra">
+                    <p>Working with databases (such as MySQL, PostgreSQL, or MongoDB) to ensure seamless data storage and retrieval.</p>
+                    <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Contact-me">
+        <p>Let Me Fetch You A Beautiful Website</p>
+        <a class="button-two" href="#">Hire Me</a>
+
+    </div>
+
+    <footer>
+        <p>Sruthi</p>
+        <p>For More Info Do Click On The Link Below</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <p class="end">&copy; CopyRight By Sruthi</p>
+    </footer>
 </body>
 </html>
